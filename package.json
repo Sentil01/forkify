@@ -1,0 +1,19 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "sentil",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-nightly.724",
+    "parcel": "^2.0.0-nightly.722"
+  },
+  "dependencies": {
+    "sass": "^1.37.5"
+  }
+}
